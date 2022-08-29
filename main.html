@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/timer.jpg" />
+    
+  </head>
+  <body >
+    <section>
+      <center><h1 style="color:white; margin: 70px;" class="title">C O U N T D O W N - T I M E R</h1>
+      <div>
+        <button style="background-color:white" id="startButton">
+          START
+        </button>
+
+        <button style="background-color:white" id="stopButton" >
+          STOP
+        </button>
+
+        <button style="background-color:white" id="resetButton" >
+          RESET
+        </button>
+      </div>
+      </center>
+      
+      <center>
+        <h1 class="frame timer" ><span id="minute">00</span>:<span id="second">00</span></h1>
+      </center>
+      
+      <form style="color:aliceblue;">
+        <label>
+          M i n u t e :
+          <input id="selectedMin" type="number" min="0" max="59" value="00" />
+        </label>
+        <label>
+          S e c o n d :
+          <input id="selectedSec" type="number" min="0" max="59" value="00" />
+        </label>
+      </form>
+     <script src="./countdown.js"></script>
+  </body>
+  
+</html>
