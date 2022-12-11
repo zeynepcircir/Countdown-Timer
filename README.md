@@ -11,5 +11,5 @@ This is a little rock paper scissors game. Let me explain its features in items:
 4)Selections and winners are listed on the leaderboard at the bottom of the page.
 
 
-![rsp foto](https://user-images.githubusercontent.com/81877446/189355524-42deacd2-cf70-4ceb-adb1-087e0de54129.jpg)
+![rsp foto](https://user-images.githubusercontent.com/81877446/189362336-db18ac3f-7cc9-497a-956c-46cc6be239f1.png)
 
